@@ -3,8 +3,10 @@ import JSBI from 'jsbi'
 // exports for external consumption
 export type BigintIsh = JSBI | bigint | string
 
+//TODO: add networks
 export enum ChainId {
-  BSC_TESTNET = 97 //TODO: add networks
+  MAINNET = 56,
+  TESTNET = 97
 }
 
 export enum TradeType {
@@ -19,7 +21,7 @@ export enum Rounding {
 }
 
 // Important Constants
-export const FACTORY_ADDRESS = '0x2b044FD4179884Cea1B878FD3916200149237a40'
+export const FACTORY_ADDRESS = '0xaf09cA8f90A26B9C007c48a12D24Fff6E7383CFd'
 export const INIT_CODE_HASH = '0x4ab1784af83d4df184e622892cfe98184225ce9203c80531197a8b10447029d1' //?wut
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
