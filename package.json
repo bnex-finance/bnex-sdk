@@ -1,17 +1,12 @@
 {
-  "name": "@uniswap/sdk",
+  "name": "@bnex/sdk",
   "license": "MIT",
-  "version": "3.0.2",
-  "description": "🛠 An SDK for building applications on top of Uniswap.",
+  "version": "0.0.1",
+  "description": "🛠 An SDK for building applications on top of BnEX.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
     "dist"
-  ],
-  "repository": "https://github.com/Uniswap/uniswap-sdk.git",
-  "keywords": [
-    "uniswap",
-    "ethereum"
   ],
   "module": "dist/sdk.esm.js",
   "scripts": {
@@ -22,6 +17,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
+    "@bnex/protocol": "^1.0.0",
     "@uniswap/v2-core": "^1.0.0",
     "big.js": "^5.2.2",
     "decimal.js-light": "^2.5.0",
@@ -55,5 +51,23 @@
     "printWidth": 120,
     "semi": false,
     "singleQuote": true
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bnex-finance/bnex-sdk.git"
+  },
+  "keywords": [
+    "bsc",
+    "binance",
+    "bnex",
+    "amm"
+  ],
+  "author": "AneoPsy",
+  "bugs": {
+    "url": "https://github.com/bnex-finance/bnex-sdk/issues"
+  },
+  "homepage": "https://github.com/bnex-finance/bnex-sdk#readme"
 }
