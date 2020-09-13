@@ -19,8 +19,17 @@ export enum Rounding {
   ROUND_UP
 }
 
+type ChainRouterList = {
+  readonly [chainId in ChainId]: string
+}
+// Important Constant
+export const FACTORY_ADDRESS_LIST: ChainRouterList = {
+  [ChainId.MAINNET]: '0xEA0895b95802Adc49Ff9e97a04dca477fcf5a818',
+  [ChainId.TESTNET]: '0xec95460391bE646DDE7dCa3170bfB539F75a2ebe'
+}
+
 // Important Constants
-export const FACTORY_ADDRESS = '0x2F8077f1779afC6D119E658Df70a6b3467017BAf'
+// export const FACTORY_ADDRESS = '0xFA7e1dC7cabF93d2dd572d176C5AD77Cb4241937'
 export const INIT_CODE_HASH = '0x31e8e8e69e2ed176069c7446ec4d87fffdce2b3302ab06df79a0f2a6f36a9c73' //?wut
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)

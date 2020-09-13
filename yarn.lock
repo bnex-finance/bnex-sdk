@@ -854,10 +854,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@bnex/protocol@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@bnex/protocol/-/protocol-1.0.6.tgz#bcea7d1b82cda9dc85f9e103558586cc8e5bb07c"
-  integrity sha512-U/NunI+F/7oldlebJ8AYcIMSPsffHBhZ9KHXPcblBEO/ycz/ZnXNEXrGRxYrEXc0uYdaNUTvMF+aKffyuLIgKA==
+"@bnex/protocol@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@bnex/protocol/-/protocol-1.0.7.tgz#0e4921236ece262dacaa03e8a78b3fc55c6ff5e8"
+  integrity sha512-RgrXhQKfgDJ79ByuANa8pIXAyTVuJXUmV9RmAAgoQFLUyJYwzFQ25aDvJZJ8i2jwoEpv/sWHpMj+mS8osrkRaA==
   dependencies:
     "@openzeppelin/contracts" "^3.1.0"
     "@openzeppelin/test-helpers" "^0.5.6"
