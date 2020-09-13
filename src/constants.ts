@@ -20,8 +20,8 @@ export enum Rounding {
 }
 
 // Important Constants
-export const FACTORY_ADDRESS = '0x22B9BC7b5D9179EA43957E6Bf64c52f26EA5aAf9'
-export const INIT_CODE_HASH = '0xc6c35c20d5143f874d531a0672b7f98e8185ed0ff1237edc37d10d7242508651' //?wut
+export const FACTORY_ADDRESS = '0x2F8077f1779afC6D119E658Df70a6b3467017BAf'
+export const INIT_CODE_HASH = '0x31e8e8e69e2ed176069c7446ec4d87fffdce2b3302ab06df79a0f2a6f36a9c73' //?wut
 
 export const MINIMUM_LIQUIDITY = JSBI.BigInt(1000)
 

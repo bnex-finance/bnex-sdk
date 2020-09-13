@@ -854,10 +854,10 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@bnex/protocol@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@bnex/protocol/-/protocol-1.0.1.tgz#65d1d61c1844cfa8161d663dfed09c19bb9f71bb"
-  integrity sha512-sYPUPGcNZJaQwt01czYAmZXWPp2eCQnPm3b8n4r29v3LUt4xJEnQrFakK/a+aziUyNDc6z/5RCy1wPDFZBTR/A==
+"@bnex/protocol@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@bnex/protocol/-/protocol-1.0.6.tgz#bcea7d1b82cda9dc85f9e103558586cc8e5bb07c"
+  integrity sha512-U/NunI+F/7oldlebJ8AYcIMSPsffHBhZ9KHXPcblBEO/ycz/ZnXNEXrGRxYrEXc0uYdaNUTvMF+aKffyuLIgKA==
   dependencies:
     "@openzeppelin/contracts" "^3.1.0"
     "@openzeppelin/test-helpers" "^0.5.6"
@@ -1858,11 +1858,6 @@
     lodash "^4.17.15"
     semver "^7.3.2"
     tsutils "^3.17.1"
-
-"@uniswap/v2-core@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@uniswap/v2-core/-/v2-core-1.0.1.tgz#af8f508bf183204779938969e2e54043e147d425"
-  integrity sha512-MtybtkUPSyysqLY2U210NBDeCHX+ltHt3oADGdjqoThZaFRDKwM6k1Nb3F0A3hk5hwuQvytFWhrWHOEq6nVJ8Q==
 
 abab@^2.0.0:
   version "2.0.5"
