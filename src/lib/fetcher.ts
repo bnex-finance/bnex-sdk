@@ -1,13 +1,13 @@
 import { Contract } from '@ethersproject/contracts'
 import { getNetwork } from '@ethersproject/networks'
 import { getDefaultProvider } from '@ethersproject/providers'
-import { TokenAmount } from './entities/fractions/tokenAmount'
-import { Pair } from './entities/pair'
+import { TokenAmount } from '../entities/fractions/tokenAmount'
+import { Pair } from '../entities/pair'
 import IUniswapV2Pair from '@bnex/protocol/build/contracts/IUniswapV2Pair.json'
 import invariant from 'tiny-invariant'
-import ERC20 from './abis/ERC20.json'
+import ERC20 from '../abi/ERC20.json'
 import { ChainId } from './constants'
-import { Token } from './entities/token'
+import { Token } from '../entities/token'
 
 let TOKEN_DECIMALS_CACHE: { [chainId: number]: { [address: string]: number } } = {
   // [ChainId.TESTNET]: {
@@ -42,7 +42,7 @@ export abstract class Fetcher {
     const parsedDecimals =
       typeof TOKEN_DECIMALS_CACHE?.[chainId]?.[address] === 'number'
         ? TOKEN_DECIMALS_CACHE[chainId][address]
-        : await new Contract(address, ERC20, provider).decimals().then((decimals: number): number => {
+        : await new Contract(address, ERC20.abi, provider).decimals().then((decimals: number): number => {
             TOKEN_DECIMALS_CACHE = {
               ...TOKEN_DECIMALS_CACHE,
               [chainId]: {

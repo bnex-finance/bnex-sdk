@@ -4,9 +4,9 @@ import _Decimal from 'decimal.js-light'
 import _Big, { RoundingMode } from 'big.js'
 import toFormat from 'toformat'
 
-import { BigintIsh, Rounding } from '../../constants'
-import { ONE } from '../../constants'
-import { parseBigintIsh } from '../../utils'
+import { BigintIsh, Rounding } from '../../lib/constants'
+import { ONE } from '../../lib/constants'
+import { parseBigintIsh } from '../../lib/utils'
 
 const Decimal = toFormat(_Decimal)
 const Big = toFormat(_Big)

@@ -1,7 +1,7 @@
 import invariant from 'tiny-invariant'
 
-import { ChainId, ONE, TradeType, ZERO } from '../constants'
-import { sortedInsert } from '../utils'
+import { ChainId, ONE, TradeType, ZERO } from '../lib/constants'
+import { sortedInsert } from '../lib/utils'
 import { Currency, BNB } from './currency'
 import { CurrencyAmount } from './fractions/currencyAmount'
 import { Fraction } from './fractions/fraction'

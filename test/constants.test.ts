@@ -1,4 +1,4 @@
-import { INIT_CODE_HASH } from '../src/constants'
+import { INIT_CODE_HASH } from '../src/lib/constants'
 
 import { bytecode } from '@bnex/protocol/build/contracts/UniswapV2Pair.json'
 import { keccak256 } from '@ethersproject/solidity'

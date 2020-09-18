@@ -16,9 +16,9 @@ import {
   _997,
   _1000,
   ChainId
-} from '../constants'
-import { sqrt, parseBigintIsh } from '../utils'
-import { InsufficientReservesError, InsufficientInputAmountError } from '../errors'
+} from '../lib/constants'
+import { sqrt, parseBigintIsh } from '../lib/utils'
+import { InsufficientReservesError, InsufficientInputAmountError } from '../lib/errors'
 import { Token } from './token'
 
 let PAIR_ADDRESS_CACHE: { [token0Address: string]: { [token1Address: string]: string } } = {}
