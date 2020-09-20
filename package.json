@@ -17,7 +17,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@bnex/protocol": "^1.0.7",
+    "@bnex/protocol": "^1.1.1",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.4",
     "tiny-invariant": "^1.1.0",
