@@ -1,7 +1,7 @@
 {
   "name": "@bnex/sdk",
   "license": "MIT",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "description": "🛠 An SDK for building applications on top of BnEX.",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -17,7 +17,7 @@
     "prepublishOnly": "tsdx build"
   },
   "dependencies": {
-    "@bnex/protocol": "^1.1.1",
+    "@bnex/protocol": "^1.1.4",
     "decimal.js-light": "^2.5.0",
     "jsbi": "^3.1.4",
     "tiny-invariant": "^1.1.0",

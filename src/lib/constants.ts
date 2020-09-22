@@ -1,15 +1,16 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { keccak256 } from '@ethersproject/solidity'
-import BnEXRouterJson from '../abi/BnEXRouter.json'
-import BnEXFactoryJson from '../abi/BnEXFactory.json'
-import BNXTokenJson from '../abi/BNXToken.json'
-import MasterJson from '../abi/Master.json'
-import BnEXPairJson from '../abi/BnEXPair.json'
-import MultiCallJson from '../abi/Multicall.json'
+import BnEXRouterJson from '@bnex/protocol/build/contracts/BnEXRouter.json'
+import BnEXFactoryJson from '@bnex/protocol/build/contracts/BnEXFactory.json'
+import BNXTokenJson from '@bnex/protocol/build/contracts/BNXToken.json'
+import MasterJson from '@bnex/protocol/build/contracts/Master.json'
+import BnEXPairJson from '@bnex/protocol/build/contracts/BnEXPair.json'
+import MultiCallJson from '@bnex/protocol/build/contracts/Multicall.json'
+import WBNBJson from '@bnex/protocol/build/contracts/WBNB.json'
+import ERC20Json from '@bnex/protocol/build/contracts/ERC20.json'
 import JSBI from 'jsbi'
-import WBNBJson from '../abi/WBNB.json'
 
-export { BnEXRouterJson, BnEXFactoryJson, BNXTokenJson, MasterJson, BnEXPairJson, MultiCallJson, WBNBJson }
+export { BnEXRouterJson, BnEXFactoryJson, BNXTokenJson, MasterJson, BnEXPairJson, MultiCallJson, WBNBJson, ERC20Json }
 
 export type BigintIsh = JSBI | bigint | string
 
@@ -33,7 +34,7 @@ type ChainContractList = {
   readonly [chainId in ChainId]: string
 }
 
-// Important Constant
+// Deployed Contracts
 export const FACTORY_ADDRESS_LIST: ChainContractList = {
   [ChainId.MAINNET]: BnEXFactoryJson.networks[ChainId.MAINNET].address,
   [ChainId.TESTNET]: BnEXFactoryJson.networks[ChainId.TESTNET].address

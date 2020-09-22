@@ -28,6 +28,7 @@ export {
   MasterJson,
   BnEXPairJson,
   MultiCallJson,
+  ERC20Json,
   WBNBJson
 } from './lib/constants'
 export * from './lib/errors'

@@ -1,1 +1,0 @@
-{"abi":[{"inputs":[{"internalType":"contract IERC20","name":"token","type":"address"}],"name":"migrate","outputs":[{"internalType":"contract IERC20","name":"","type":"address"}],"stateMutability":"nonpayable","type":"function"}],"bytecode":"0x","networks":{"1":{"address":"0x0"},"4":{"address":"0x0"},"56":{"address":"0x0"},"97":{"address":"0x0"},"1001":{"address":"0x0"}}}

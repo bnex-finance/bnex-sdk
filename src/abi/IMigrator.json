@@ -1,1 +1,0 @@
-{"abi":[{"inputs":[],"name":"desiredLiquidity","outputs":[{"internalType":"uint256","name":"","type":"uint256"}],"stateMutability":"view","type":"function"}],"bytecode":"0x","networks":{"1":{"address":"0x0"},"4":{"address":"0x0"},"56":{"address":"0x0"},"97":{"address":"0x0"},"1001":{"address":"0x0"}}}
